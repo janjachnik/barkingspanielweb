@@ -244,6 +244,12 @@ img {
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
   }
+  .navbar-custom .navbar-brand-logo img {
+    height: 40px;
+  }
+  .navbar-custom .navbar-brand-logo {
+    padding-top: 5px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container {
