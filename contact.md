@@ -6,7 +6,7 @@ title: Contact
 For further information please contact us:
 
 
-<!--<form action="https://formspree.io/contact@barkingspanielbrewery.co.uk" method="POST">-->
+<form action="https://formspree.io/info@barkingspanielbrewery.co.uk" method="POST">
 <form>
   <div class="form-group">
     <label for="email">Email address:</label>
