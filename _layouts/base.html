@@ -21,15 +21,22 @@ common-js:
 
   <body>
 
-    {% include gtm_body.html %}
-  
-    {% include nav.html %}
+    <div id="container">
 
-    {{ content }}
-
-    {% include footer.html %}
+      {% include gtm_body.html %}
   
-    {% include footer-scripts.html %}
+      {% include nav.html %}
+
+      <div id="content">
+        {{ content }}
+      </div>
+
+      <div id="footer-container">
+        {% include footer.html %}
+        {% include footer-scripts.html %}
+       </div>
+       
+     </div>
   
   </body>
 </html>

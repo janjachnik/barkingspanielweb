@@ -6,6 +6,22 @@ layout: null
 
 /* --- General --- */
 
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+  padding-top: 1px; /* I shouldn't need this. If 0 then nav does not seem to be inside container?!?!*/
+}
+
+#content {
+  padding-bottom: 15em; /* footer height 12em + padding */
+}
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -273,10 +289,18 @@ img {
 
 /* --- Footer --- */
 
+#footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12em;
+}
+
 footer {
   padding: 30px 0;
+  height: 100%;
   border-top: 1px #EAEAEA solid;
-  margin-top: 50px;
+  margin: 0px;
   font-size: 14px;
   background-color: {{ site.footer-col }};
   {% if site.footer-img %}
