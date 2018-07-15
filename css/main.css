@@ -12,13 +12,13 @@ html,body {
   padding: 0;
 }
 
-#container {
+.main-container {
   min-height: 100%;
   position: relative;
   padding-top: 1px; /* I shouldn't need this. If 0 then nav does not seem to be inside container?!?!*/
 }
 
-#content {
+.content {
   padding-bottom: 15em; /* footer height 12em + padding */
 }
 
@@ -289,7 +289,7 @@ img {
 
 /* --- Footer --- */
 
-#footer-container {
+.footer-container {
   position: absolute;
   bottom: 0;
   width: 100%;
