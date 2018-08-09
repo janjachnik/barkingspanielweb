@@ -3,30 +3,28 @@ layout: page
 title: Beers
 ---
 
-## Barking Best
+{% for beer in site.data.beers.core %}
+<h2>{{ beer.name }}</h2>
 <div class="row"><div class="col-sm-8">
-Barking best is our best bitter. Mahogany coloured and made with mostly Maris Otter malt with a dash of black malt. We use classic East Kent Goldings hops combined with Willamette hops: a US variety derived from English Fuggles.
+{{ beer.description }}
 </div><div class="col-sm-4">
-<img class="img-responsive" src="/img/beerBest.png">
+{% if beer.image %}
+<img class="img-responsive" src="{{ beer.image }}">
+{% endif %}
 </div></div>
-
-
-## Barking at the Moon
-<div class="row"><div class="col-sm-8">
-This wheat beer takes inspiration from Belgian Witbiers. Infused with coriander seed, bitter orange peel and fresh root ginger it is best enjoyed cold on a hot summer's day. A refreshing beer with a very low amount of hops in comparison the the rest of our range.
-</div><div class="col-sm-4">
-<img class="img-responsive" src="/img/beerMoon.png">
-</div></div>
-
+{% endfor %}
 
 # Coming soon...
 
-
-## Dark Bark
+{% for beer in site.data.beers.soon %}
+<h2>{{ beer.name }}</h2>
 <div class="row"><div class="col-sm-8">
-Oatmeal Stout was one of the first beer styles brewed by Jan, our Head Brewer.  
-The addition of oats in the grist give this rich stout a wonderfully silky mouthfeel which excellently complements the bitterness from the roasted malts and English hops.
+{{ beer.description }}
 </div><div class="col-sm-4">
+{% if beer.image %}
+<img class="img-responsive" src="{{ beer.image }}">
+{% endif %}
 </div></div>
+{% endfor %}
 
 
