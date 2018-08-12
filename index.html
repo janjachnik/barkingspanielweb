@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+<img src="/img/logoBigText.png" width="100%" />
+
+<hr style="margin-top: 3em;" />
+
+<div class="intro-header no-img" style="margin-top: 3em;">
+  <div class="page-heading">
+    <h1>Latest News</h1>
+  </div>
+</div>
+
+<div class="posts-list">
+  {% for post in site.posts limit:site.latest-news-count %}
+    {% include article.html %}
+  {% endfor %}
+</div>
+
+
+{% if site.posts.size > site.latest-news-count %}
+<ul class="pager main-pager">
+  <li class="next">
+    <a href="news">More news &rarr;</a>
+  </li>
+</ul>
+{% endif %}
