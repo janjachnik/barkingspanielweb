@@ -1,4 +1,4 @@
-core:
+soon:
   - name: 'Barking Best'
     description: >
           Barking best is our best bitter. Mahogany coloured and made with mostly Maris Otter malt with a dash of black malt. We use classic East Kent Goldings hops combined with Willamette hops: a US variety derived from English Fuggles.
@@ -7,12 +7,6 @@ core:
 
   - name: 'Barking at the Moon'
     description: >
-          This wheat beer takes inspiration from Belgian Witbiers. Infused with coriander seed, bitter orange peel and fresh root ginger it is best enjoyed cold on a hot summer's day. A refreshing beer with a very low amount of hops in comparison the the rest of our range.
+          This wheat beer takes inspiration from Belgian Witbiers. Infused with coriander seed, bitter orange peel and fresh root ginger it is best enjoyed cold on a hot summer's day. A refreshing beer with a low hop character, letting the spices shine through.
     image: /img/beerMoon.png
-
-soon:
-  - name: 'Dark Bark'
-    description: >
-            Oatmeal Stout was one of the first beer styles brewed by Jan, our Head Brewer.  
-            The addition of oats in the grist give this rich stout a wonderfully silky mouthfeel which excellently complements the bitterness from the roasted malts and English hops.
 

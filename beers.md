@@ -3,6 +3,9 @@ layout: page
 title: Beers
 ---
 
+We are still developing and refining our recipes before production begins towards the end of the year. 
+Below we have a sampling of things to come.
+
 {% for beer in site.data.beers.core %}
 <h2>{{ beer.name }}</h2>
 <div class="row"><div class="col-sm-8">
