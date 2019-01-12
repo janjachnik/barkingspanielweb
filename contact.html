@@ -6,8 +6,7 @@ title: Contact
 <p>For further information please contact us:</p>
 
 
-<form action="https://formspree.io/{{ site.social-network-links.email }}" method="POST">
-<form>
+<form action="https://formspree.io/{{ site.social-network-links.email }}" method="POST" class="contact-form">
   <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" id="email" name="_replyto">
@@ -19,6 +18,6 @@ title: Contact
     <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_format" value="plain" />
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
