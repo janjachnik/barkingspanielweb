@@ -1,12 +1,10 @@
-soon:
+core:
   - name: 'Barking Best'
     description: >
-          Barking best is our best bitter. Mahogany coloured and made with mostly Maris Otter malt with a dash of black malt. We use classic East Kent Goldings hops combined with Willamette hops: a US variety derived from English Fuggles.
-    image: /img/beerBest.png
+          Barking best is our brown/ruby bitter. Inspired by Cookie, the chocolate spaniel after which the brewery is named, a malty foundation including chocolate and biscuit malts is complemented by East Kent Goldings and Willamette hops.
   
 
-  - name: 'Barking at the Moon'
+  - name: 'Barking Gold'
     description: >
-          This wheat beer takes inspiration from Belgian Witbiers. Infused with coriander seed, bitter orange peel and fresh root ginger it is best enjoyed cold on a hot summer's day. A refreshing beer with a low hop character, letting the spices shine through.
-    image: /img/beerMoon.png
+          An English Golden Ale made with American hops. Wonderful citrusy notes from the Simcoe and Citra but not in-your-face like an American-style pale ale. A really refreshing beer, best enjoyed cold.
 
